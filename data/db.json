@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user1@example.com",
+      "password": "password123",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "password": "securepass",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1",
+      "userId": "1",
+      "description": "Compras supermercado",
+      "amount": 200,
+      "category": "Alimentación",
+      "date": "2024-12-19"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "description": "Pago servicios públicos",
+      "amount": 150,
+      "category": "Servicios",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "description": "Cena restaurante",
+      "amount": 75,
+      "category": "Alimentación",
+      "date": "2024-12-10"
+    },
+    {
+      "id": "4",
+      "userId": "2",
+      "description": "Gasolina",
+      "amount": 60,
+      "category": "Transporte",
+      "date": "2024-12-18"
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "description": "Compras tienda departamental",
+      "amount": 180,
+      "category": "Ropa",
+      "date": "2024-12-14"
+    },
+    {
+      "id": "6",
+      "userId": "2",
+      "description": "Medicamentos farmacia",
+      "amount": 45,
+      "category": "Salud",
+      "date": "2024-12-12"
+    }
+  ]
+}
