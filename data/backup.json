@@ -1,0 +1,28 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "email": "user1@example.com",
+        "password": "password123",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "1",
+        "userId": "1",
+        "description": "Pago servicios públicos",
+        "amount": 150,
+        "category": "Servicios",
+        "date": "2024-12-15"
+      },
+      {
+        "id": "1",
+        "userId": "1",
+        "description": "Compras supermercado",
+        "amount": 200,
+        "category": "Alimentación",
+        "date": "2024-12-19"
+      }
+    ]
+  }
